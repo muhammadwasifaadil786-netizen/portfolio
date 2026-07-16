@@ -135,3 +135,36 @@
     color: white;
     transition: 0.3s;
 }
+/* ==========================================
+   MOBILE RESPONSIVE STYLES (For Contact Page)
+   ========================================== */
+@media (max-width: 768px) {
+    /* Navbar adjust */
+    .nav-bar {
+        flex-direction: column;
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Contact Form Section */
+    .login-section {
+        height: auto;
+        padding: 100px 20px 80px 20px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 320px; /* Choti screen par screen se bahar nahi jayega */
+    }
+
+    /* Footer fix */
+    .foot-er p {
+        position: relative;
+    }
+}
