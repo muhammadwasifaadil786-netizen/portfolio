@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -233,6 +233,33 @@ align-items: center;
 
 
 
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color:#c1bfbf82;
+    justify-content:space-around;
+    height:auto;
+    margin-bottom: 190px;
+}
+
+.proj-h1{
+    text-align: center;
+    justify-content: center;    
+}
+
+.proj-img{
+    
+    object-fit: contain;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 
 
 
@@ -275,6 +302,31 @@ align-items: center;
 }
 
 
+
+
+.foot-er {
+ width: 100%;
+ height:auto;
+ margin-top:10px;
+ display: flex;
+ flex-direction: column;
+}
+
+
+
+.foot-er p{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
 /* ==========================================
    MOBILE RESPONSIVE STYLES (For Mobile Screens)
    ========================================== */
@@ -283,7 +335,7 @@ align-items: center;
     .nav-bar {
         flex-direction: column;
         padding: 15px 10px;
-        border-radius: 20px;
+        border-radius: 10px;
         gap: 15px;
     }
 
@@ -309,6 +361,7 @@ align-items: center;
 
     .hero-content h1 {
         font-size: 32px;
+        text-align: center ;
     }
 
     .hero-section img {
@@ -369,23 +422,4 @@ align-items: center;
 
 
 
-.foot-er {
- width: 100%;
- height:auto;
- margin-top:10px;
- display: flex;
- flex-direction: column;
-}
-
-
-
-.foot-er p{
-    background-color: gray;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
